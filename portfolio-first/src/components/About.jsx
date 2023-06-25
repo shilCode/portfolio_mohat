@@ -16,7 +16,7 @@ function About() {
                <p>Hi. I am Mohat, nice to meet you</p>
                </div>
                <div><p>
-               I bring a wealth of experience in testing web applications and creating detailed test scripts. My proficiency
+                I bring a wealth of experience in testing web applications and creating detailed test scripts. My proficiency
                 extends to working with relational databases, where I excel at crafting complex SQL queries.  Alongside my general understanding
                 of software engineering practices, I specialize in development lifecycle and change validation. Furthermore, I
                 have hands-on experience with Postman, adding value to my skill set. I am well-versed in CI/CD toolchains,
