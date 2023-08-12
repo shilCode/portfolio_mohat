@@ -1,5 +1,5 @@
 import React from 'react'
-import { Tooltip } from 'tippy.js';
+
 
 
 import JS from '../assets/javascript.png'
