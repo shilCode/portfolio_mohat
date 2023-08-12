@@ -9,7 +9,7 @@ const Navbar = () => {
     const [nav,setNav] = useState(false)
     const handleCLick = () => setNav(!nav)
   return (
-    <div className='fixed w-full h-[80px] flex justify-between px-4 bg-[#0a192f]
+    <div className='fixed w-full h-[80px] flex justify-between px-4 bg-[#281132]
      text-gray-300'>
 
         <div>
@@ -28,12 +28,13 @@ const Navbar = () => {
                 </li>
                 <li> <Link  to="skills" smooth={true} offset={50} duration={500}>
                 Skills</Link> </li>
-                <li> <Link  to="work" smooth={true} offset={50} duration={500}>
-                Work</Link> </li>
+             
                 <li>
                 <Link  to="contact" smooth={true} offset={50} duration={500}>
                 Contact</Link> 
                 </li>
+                {/* <li> <Link  to="work" smooth={true} offset={50} duration={500}>
+                Work</Link> </li> */}
             </ul>
 
 
@@ -43,7 +44,7 @@ const Navbar = () => {
     
 </div>
     {/* mobile menu */}
-    <div className= {!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center'} >
+    <div className= {!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#532877] flex flex-col justify-center items-center'} >
         <ul>
                 <li  className='py-6 text-4xl'><Link onClick={handleCLick} to="home" smooth={true} offset={50} duration={500}>
                 Home</Link></li>
@@ -51,8 +52,8 @@ const Navbar = () => {
                 About</Link> </li>
                 <li className='py-6 text-4xl'><Link onClick={handleCLick} to="skills" smooth={true} offset={50} duration={500}>
                 Skills</Link></li>
-                <li className='py-6 text-4xl'><Link onClick={handleCLick} to="work" smooth={true} offset={50} duration={500}>
-                Work</Link></li>
+                {/* <li className='py-6 text-4xl'><Link onClick={handleCLick} to="work" smooth={true} offset={50} duration={500}>
+                Work</Link></li> */}
                 <li className='py-6 text-4xl'>  <Link onClick={handleCLick} to="contact" smooth={true} offset={50} duration={500}>
                 Contact</Link> </li>
         </ul>
@@ -76,7 +77,7 @@ const Navbar = () => {
                 </a>
             </li>
             <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
-                <a className='flex justify-between items-center w-full text-gray-300  ' href="/">
+                <a className='flex justify-between items-center w-full text-gray-300  ' href="https://drive.google.com/file/d/11lWLRzGe7cy0zSdUYdx5O-JmVX3cOY1C/view?usp=sharing">
                     Resume <BsFillPersonLinesFill size={30}/>
                 </a>
             </li>
