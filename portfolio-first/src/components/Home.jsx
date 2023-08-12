@@ -1,4 +1,5 @@
 import React from 'react'
+import cv from '../assets/Resume.pdf'
 import {HiArrowNarrowRight} from 'react-icons/hi'
 
 const Home = () => {
@@ -12,10 +13,9 @@ const Home = () => {
         <h2 className='text-4xl sm:text-7xl font-bold  text-gray-400'>QA Engineer</h2>
         <p className='text-gray-500 mx-w-[700px]'>with 5 years of Experience</p>
         <div>
-        <button className='text-white group border-2 px-6 py-3 my-2 items-center flex hover:bg-pink-600 hover:border-pink-600'>
-             View Work
-             <span className='group-hover:rotate-90 duration-300'><HiArrowNarrowRight 
-             className='ml-3 '/></span>
+        <button className='text-white group border-2 px-6 py-3 my-2 items-center flex hover:bg-pink-600 hover:border-pink-600' >
+             <a href={cv} download='mohat-shil.pdf'>Download CV</a>
+             <span className='group-hover:rotate-90 duration-300'></span>
              </button>
         </div>
     </div>

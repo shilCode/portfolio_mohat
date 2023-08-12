@@ -9,11 +9,11 @@ const Navbar = () => {
     const [nav,setNav] = useState(false)
     const handleCLick = () => setNav(!nav)
   return (
-    <div className='fixed w-full h-[80px] flex justify-between px-4 bg-[#281132]
-     text-gray-300'>
+    <div className='fixed w-full h-[100px] flex justify-between px-4 bg-[#281132]
+     text-gray-300 pt-4'>
 
         <div>
-          <img src= {logo} alt="logo" style={{width:'50px'}}/>
+          <img src= {logo} alt="logo" className='rounded-full' style={{width: '62.5px', height: '62.5px' }}/>
         </div>
         {/* menu */}
 
@@ -44,7 +44,7 @@ const Navbar = () => {
     
 </div>
     {/* mobile menu */}
-    <div className= {!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#532877] flex flex-col justify-center items-center'} >
+    <div className= {!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#532877] flex flex-col justify-center items-center pt-08 ml-8'} >
         <ul>
                 <li  className='py-6 text-4xl'><Link onClick={handleCLick} to="home" smooth={true} offset={50} duration={500}>
                 Home</Link></li>
@@ -72,7 +72,10 @@ const Navbar = () => {
                 </a>
             </li>
             <li className='w-[160px] h-[60px] flex justify-between items-center   ml-[-100px] hover:ml-[-10px] duration-300 bg-green-500'>
-                <a className='flex justify-between items-center w-full text-gray-300' href="mailto:2850542@gmail.com">
+                <a className='flex justify-between items-center w-full text-gray-300' onClick={() => {
+    window.location.href = "mailto:2850542@gmail.com";
+    return false; 
+  }}>
                     Mail <HiOutlineMail size={30}/>
                 </a>
             </li>
