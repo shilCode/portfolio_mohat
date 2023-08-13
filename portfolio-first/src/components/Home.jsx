@@ -1,6 +1,5 @@
 import React from 'react'
 import cv from '../assets/Resume.pdf'
-import {HiArrowNarrowRight} from 'react-icons/hi'
 
 const Home = () => {
   return (

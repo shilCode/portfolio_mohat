@@ -11,17 +11,22 @@ function About() {
             </div>
             <div></div>
             </div>
-            <div className='max-w-[1000px] w-full px-8 grid sm:grid-cols-2 gap-8  px-4'>
+            <div className='max-w-[1000px] w-full px-8 grid sm:grid-cols-2 gap-8 '>
                <div className='sm:text-right text-4xl font-bold '>
-               <p>Hi. I am Mohat, nice to meet you</p>
+               <p>Hi. I am Mohat 👋🏽              
+               </p>
+               <img src='https://media.giphy.com/media/3o7aCV48hSigaq5Yk0/giphy.gif' alt='Giphy' className='max-w-full' />
+               
+                
                </div>
                <div><p>
-                I bring a wealth of experience in testing web applications and creating detailed test scripts. My proficiency
-                extends to working with relational databases, where I excel at crafting complex SQL queries.  Alongside my general understanding
-                of software engineering practices, I specialize in development lifecycle and change validation. Furthermore, I
-                have hands-on experience with Postman, adding value to my skill set. I am well-versed in CI/CD toolchains,
-                particularly Git and Jenkins, and can navigate them with ease. Additionally, I possess previous exposure to Kafka
-                and possess a deep understanding of streaming architectures, giving me a significant edge.
+               As a Senior Software Test Engineer with 5 years of experience in web and
+                mobile application testing, I possess extensive knowledge of agile
+                methodologies, test automation frameworks, and various testing tools
+                including WebDriver IO, Playwright, and Jenkins. My academic credentials
+                include a Bachelor's degree in Computer Science with a major in Quality
+                Engineering and a minor in Cloud Engineering. I am seeking an opportunity to
+                apply my skills and experience in a dynamic work environment.
                 </p></div>
             </div>
           
