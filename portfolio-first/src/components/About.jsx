@@ -20,7 +20,7 @@ function About() {
                 
                </div>
                <div><p>
-               As a Senior Software Test Engineer with 5 years of experience in web and
+               As a QA Automation Engineer with 5+ years of experience in web and
                 mobile application testing, I possess extensive knowledge of agile
                 methodologies, test automation frameworks, and various testing tools
                 including WebDriver IO, Playwright, and Jenkins. My academic credentials

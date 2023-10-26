@@ -52,7 +52,7 @@ export const Skills = () => {
                 </div>
 
                 <div className='shadow-md shadow-black-900 hover:scale-110 duration-500'>
-                    <img className='w-20 mx-auto' src="https://cdn.iconscout.com/icon/free/png-256/free-jira-282222.png?f=webp" alt="html icon" />
+                    <img className='w-20 mx-auto' src="https://logonoid.com/images/jira-logo.png" alt="html icon" />
                     <p className='my-4'>
                         JIRA
                     </p>
