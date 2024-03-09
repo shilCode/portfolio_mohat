@@ -13,9 +13,9 @@ function About() {
             </div>
             <div className='max-w-[1000px] w-full px-8 grid sm:grid-cols-2 gap-8 '>
                <div className='sm:text-right text-4xl font-bold '>
-               <p>Hi. I am Mohat 👋🏽              
+               <p>             
                </p>
-               <img src='https://media.giphy.com/media/3o7aCV48hSigaq5Yk0/giphy.gif' alt='Giphy' className='max-w-full' />
+               <img src='https://mediagiphy.com/media/3o7aCV48hSigaq5Yk0/giphy.gif' alt='Giphy' className='max-w-full' />
                
                 
                </div>
