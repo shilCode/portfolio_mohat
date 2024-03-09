@@ -21,13 +21,20 @@ export const Skills = () => {
                 <div className='shadow-md shadow-black-900 hover:scale-110 duration-500'>
                     <img className='w-20 mx-auto' src={JS} alt="html icon" />
                     <p className='my-4'>
-                    JAVASCRIPT
+                    JAVASCRIPT 
+                    </p>
+                </div>
+                 {/* end of card component */}
+                <div className='shadow-md shadow-black-900 hover:scale-110 duration-500'>
+                    <img className='w-20 mx-auto' src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/512px-Typescript_logo_2020.svg.png?20221110153201" alt="html icon" />
+                    <p className='my-4'>
+                    TYPESCRIPT
                     </p>
                 </div>
 
-                {/* end of card component */}
+             
                 <div className='shadow-md shadow-black-900 hover:scale-110 duration-500'>
-                    <img className='w-20 mx-auto' src={playwright} alt="html icon" />
+                    <img className='w-20 mx-auto' src="https://playwright.dev/img/playwright-logo.svg" alt="html icon" />
                     <p className='my-4'>
                        PLAYWRIGHT
                     </p>
@@ -51,12 +58,7 @@ export const Skills = () => {
                     </p>
                 </div>
 
-                <div className='shadow-md shadow-black-900 hover:scale-110 duration-500'>
-                    <img className='w-20 mx-auto' src="https://logonoid.com/images/jira-logo.png" alt="html icon" />
-                    <p className='my-4'>
-                        JIRA
-                    </p>
-                </div>
+               
 
                 <div className='shadow-md shadow-black-900 hover:scale-110 duration-500'>
                     <img className='w-20 mx-auto' src="https://jmeter.apache.org/images/jmeter_square.png" alt="html icon" />
