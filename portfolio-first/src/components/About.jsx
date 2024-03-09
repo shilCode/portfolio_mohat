@@ -11,13 +11,9 @@ function About() {
             </div>
             <div></div>
             </div>
-            <div className='max-w-[1000px] w-full px-8 grid sm:grid-cols-2 gap-8 '>
+            <div className='max-w-[1000px] w-full px-2 grid sm:grid-cols-2 gap-x-8 gap-y-10 '>
                <div className='sm:text-right text-4xl font-bold '>
-               <p>             
-               </p>
-               <img src='https://mediagiphy.com/media/3o7aCV48hSigaq5Yk0/giphy.gif' alt='Giphy' className='max-w-full' />
-               
-                
+               <iframe src="https://giphy.com/embed/93j2KW6SM3Wqd6sSQf" width="480" height="310"  allowFullScreen></iframe> 
                </div>
                <div><p>
                As a QA Automation Engineer with 5+ years of experience in web and
