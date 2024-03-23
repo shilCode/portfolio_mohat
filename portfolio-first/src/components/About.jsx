@@ -13,7 +13,7 @@ function About() {
             </div>
             <div className='max-w-[1000px] w-full px-2 grid sm:grid-cols-2 gap-x-8 gap-y-10 '>
                <div className='sm:text-right text-4xl font-bold '>
-               <iframe src="https://giphy.com/embed/93j2KW6SM3Wqd6sSQf" width="480" height="310"  allowFullScreen></iframe> 
+               <iframe src="https://giphy.com/embed/93j2KW6SM3Wqd6sSQf" width="400" height="310"  allowFullScreen></iframe> 
                </div>
                <div><p>
                As a QA Automation Engineer with 5+ years of experience in web and

@@ -13,7 +13,7 @@ const Home = () => {
         <p className='text-gray-500 mx-w-[700px]'>with 5+ years of Experience</p>
         <div>
         <button className='text-white group border-2 px-6 py-3 my-2 items-center flex hover:bg-pink-600 hover:border-pink-600' >
-             <a href={cv} download='mohat-shil.pdf'>Download CV</a>
+             <a href={cv} download='mohat-shil.pdf'>Download Professional CV</a>
              <span className='group-hover:rotate-90 duration-300'></span>
              </button>
         </div>
