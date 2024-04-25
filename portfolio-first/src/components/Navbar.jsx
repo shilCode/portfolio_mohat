@@ -33,18 +33,18 @@ const Navbar = () => {
                 <Link  to="contact" smooth={true} offset={50} duration={500}>
                 Contact</Link> 
                 </li>
-                {/* <li> <Link  to="work" smooth={true} offset={50} duration={500}>
-                Work</Link> </li> */}
+                <li> <Link  to="work" smooth={true} offset={50} duration={500}>
+                Work</Link> </li>
             </ul>
 
 
   {/* Hamburger */}
-<div onClick={handleCLick} className='md:hidden z-10'>
-    {!nav ? <FaBars/> : <FaTimes/>}
+<div onClick={handleCLick} className='md:hidden z-30  items-center'>
+    {!nav ? <FaBars /> : <FaTimes className="fa-solid fa-2xs" />}
     
 </div>
     {/* mobile menu */}
-    <div className= {!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#532877] flex flex-col justify-center items-center pt-08 ml-8'} >
+    <div className= {!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#281132]  flex flex-col justify-center items-center pt-08 ml-4'} >
         <ul>
                 <li  className='py-6 text-4xl'><Link onClick={handleCLick} to="home" smooth={true} offset={50} duration={500}>
                 Home</Link></li>
@@ -52,8 +52,8 @@ const Navbar = () => {
                 About</Link> </li>
                 <li className='py-6 text-4xl'><Link onClick={handleCLick} to="skills" smooth={true} offset={50} duration={500}>
                 Skills</Link></li>
-                {/* <li className='py-6 text-4xl'><Link onClick={handleCLick} to="work" smooth={true} offset={50} duration={500}>
-                Work</Link></li> */}
+                <li className='py-6 text-4xl'><Link onClick={handleCLick} to="work" smooth={true} offset={50} duration={500}>
+                Work</Link></li>
                 <li className='py-6 text-4xl'>  <Link onClick={handleCLick} to="contact" smooth={true} offset={50} duration={500}>
                 Contact</Link> </li>
         </ul>
