@@ -2,7 +2,7 @@ import React from 'react'
 
 const Home = () => {
   return (
-    <div name='home' className='w-full lg:h-screen md:h-auto sm:h-auto bg-[#292524]'>
+    <div name='home' className='w-auto sm:w-auto lg:w-auto lg:h-auto md:h-auto sm:h-auto bg-[#292524]'>
     
       {/* Header */}
       <div className='max-w-[1000px] mx-auto px-8 flex flex-col h-full font-mono text-white'>
