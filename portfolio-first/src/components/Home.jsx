@@ -9,11 +9,11 @@ const Home = () => {
         <div>
         <div className='  flex  justify-between items-center pt-10 pb-10  gap-10 '>
             <div >
-            <h1 className='text-[#fbbf24]  font-extrabold  text-3xl '>Mohat Shil </h1>
+            <a className='text-[#fbbf24]  font-extrabold  text-3xl'>Mohat Shil </a>
             </div>
             <div className=''>
-            <a className=' text-3xl' href='https://www.linkedin.com/in/mohat-shil/' target="_blank">Linkedn</a>
-            <a className=' text-3xl ps-10' href='https://github.com/shilCode' target="_blank">GitHub</a>
+            <a className='text-3xl' href='https://www.linkedin.com/in/mohat-shil/' target="_blank">Linkedn</a>
+            <a className='text-3xl ps-10' href='https://github.com/shilCode' target="_blank">GitHub</a>
             <div>
 
               
@@ -23,7 +23,7 @@ const Home = () => {
         <hr/>
         {/* Software Developer in Test */}
         <div >
-        <h2 className='  font-mono pt-5 text-2xl'>Software Developer in Test 📱🕸️🖥️</h2>
+        <h2 className='  font-mono pt-5 text-2xl font-bold'>Software Developer in Test 📱🕸️🖥️</h2>
           <div className=' font-mono pt-5 pb-10'>
             <ul> 👋🏼 I’m Mohat Shil, a SDET with 5+ years of experience in multiple MNCs. </ul>
             <ul> 🎓 Graduated in 2021 with a Computer Engineering bechelors degree.</ul>
@@ -38,7 +38,7 @@ const Home = () => {
         {/* Experience */}
       <hr />
         <div >
-        <h2 className='  font-mono pt-5 pb-4 text-2xl'>Work Experience 👾</h2>
+        <h2 className='  font-mono pt-5 pb-4 text-2xl font-bold'>Work Experience 👾</h2>
         <div>
 
         <div className=' flex pb-10 '>
@@ -112,7 +112,7 @@ const Home = () => {
       <hr />
         {/* Tech Stack */}
         <div className='pb-10' >
-        <h2 className='  font-mono pt-5 pb-10 text-2xl'>Technology Stack ⚙️</h2>
+        <h2 className='  font-mono pt-5 pb-10 text-2xl font-bold'>Technology Stack ⚙️</h2>
               <div className=' flex'>
                   <div className=' pb-20 w-1/2'>
                     <div>E2E Testing: 🧪
