@@ -148,9 +148,11 @@ const Home = () => {
 
         <hr />
         </div>
-            <footer className=' bg-none font-mono pt-5'>
+        
+        {/* footer */}
+        <footer className=' bg-none font-mono pt-5'>
              //
-            </footer>
+        </footer>
 
       </div>     
     
