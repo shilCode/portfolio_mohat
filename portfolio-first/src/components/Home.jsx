@@ -27,7 +27,7 @@ const Home = () => {
           <div className=' font-mono pt-5 pb-10'>
             <ul> 👋🏼 I’m Mohat Shil, a SDET with 5+ years of experience in multiple MNCs. </ul>
             <ul> 🎓 Graduated in 2021 with a Computer Engineering bechelors degree.</ul>
-            <ul>  🗡  As a passionate Test Automation Enthusiast, I specialize in cutting-edge technologies and frameworks.</ul>
+            <ul>  🗡  As a passionate Test Automation Enthusiast, I specialize in cutting-edge technologies and testing frameworks.</ul>
             <ul> 🔍 Explore my latest projects and contributions on my <a href='https://github.com/shilCode' className=' underline' target="_blank">GitHub</a>.</ul>
             <ul> 📚 I'm currently learning about DevOps and Cloud Computing.</ul>
             <ul> 🎯 My goal is to become a Cloud Architect and contribute to open-source projects.</ul>
@@ -38,7 +38,7 @@ const Home = () => {
         {/* Experience */}
       <hr />
         <div >
-        <h2 className='  font-mono pt-5 pb-4 text-2xl'>Work Experience </h2>
+        <h2 className='  font-mono pt-5 pb-4 text-2xl'>Work Experience 👾</h2>
         <div>
 
         <div className=' flex pb-10 '>
@@ -112,10 +112,10 @@ const Home = () => {
       <hr />
         {/* Tech Stack */}
         <div className='pb-10' >
-        <h2 className='  font-mono pt-5 pb-4 text-2xl'>Technology Stack</h2>
+        <h2 className='  font-mono pt-5 pb-10 text-2xl'>Technology Stack ⚙️</h2>
               <div className=' flex'>
-                  <div className=' pb-10 w-1/2'>
-                    <div>E2E Testing:
+                  <div className=' pb-20 w-1/2'>
+                    <div>E2E Testing: 🧪
                     <div className='ms-10'>
                     <a href="https://playwright.dev/" target="_blank">Playwright</a><br/>
                     <a href="https://www.cypress.io/" target="_blank">Cypress</a><br/>
@@ -128,7 +128,8 @@ const Home = () => {
                   </div>
 
                   <div className='flex w-1/2'>
-                    <div >Tools: <br/>
+                    <div >Tools: ⚓<br/>
+                    <a className='ms-10 ' href="https://git-scm.com/" target="_blank">Git</a><br/>
                     <a className='ms-10 ' href="https://www.postman.com/" target="_blank">Postman</a><br/>
                     <a className='ms-10 ' href="https://jmeter.apache.org/" target="_blank">Jmeter</a><br/>
                     <a className='ms-10 ' href="https://www.docker.com/" target="_blank">Docker</a><br/>
@@ -138,7 +139,7 @@ const Home = () => {
                   
                   </div> 
               </div>
-                  <div className=' w-1/2'>Programming Languages 
+                  <div className=' w-1/2'>Programming Languages: 🧑‍💻 
                     <div className='ms-10  '>
                     <a href="https://javascript.info/" target="_blank">JavaScript</a><br/>
                     <a href="https://typescriptlang.org/" target="_blank">TypeScript</a><br/>
@@ -150,9 +151,13 @@ const Home = () => {
         </div>
         
         {/* footer */}
-        <footer className=' bg-none font-mono pt-5'>
-             //
-        </footer>
+        <div className=' bg-none font-mono pt-5'> 
+        <a  href='2850542@gmail.com' target='_blank' className='text-[#fbbf24]  font-extrabold  text-xl'>
+          ✉️  2850542@gmail.com
+        </a>
+        </div>
+        <br />
+
 
       </div>     
     
