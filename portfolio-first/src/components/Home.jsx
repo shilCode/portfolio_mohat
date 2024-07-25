@@ -152,7 +152,7 @@ const Home = () => {
         
         {/* footer */}
         <div className=' bg-none font-mono pt-5'> 
-        <a  href='2850542@gmail.com' target='_blank' className='text-[#fbbf24]  font-extrabold  text-xl'>
+        <a  href='mailto:2850542@gmail.com' target='_blank' className='text-[#fbbf24]  font-extrabold  text-xl'>
           ✉️  2850542@gmail.com
         </a>
         </div>
