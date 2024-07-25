@@ -2,18 +2,18 @@ import React from 'react'
 
 const Home = () => {
   return (
-    <div name='home' className='w-auto sm:w-auto lg:w-auto lg:h-auto md:h-auto sm:h-auto bg-[#292524]  overflow-hidden'>
+    <div name='home' className='w-auto md:w-auto lg:w-auto lg:h-auto md:h-auto sm:h-auto bg-[#292524]  overflow-hidden'>
     
       <div className='max-w-[1000px] mx-auto px-8 flex flex-col h-full font-mono text-white'>
       {/* Header */}
         <div>
-        <div className='  flex  justify-between items-center pt-10 pb-10  gap-10 '>
+        <div className=' flex justify-between items-center pt-10 pb-10  gap-10 '>
             <div >
-            <a className='text-[#fbbf24]  font-extrabold  text-3xl'>Mohat Shil </a>
+            <a className='text-[#fbbf24]  font-extrabold  text-3xl sm:text-xl'>Mohat Shil </a>
             </div>
             <div className=''>
-            <a className='text-3xl' href='https://www.linkedin.com/in/mohat-shil/' target="_blank">Linkedn</a>
-            <a className='text-3xl ps-10' href='https://github.com/shilCode' target="_blank">GitHub</a>
+            <a className='text-3xl sm:text-xl' href='https://www.linkedin.com/in/mohat-shil/' target="_blank">Linkedn</a>
+            <a className='text-3xl ps-10 sm:text-xl' href='https://github.com/shilCode' target="_blank">GitHub</a>
             <div>
 
               
@@ -24,7 +24,7 @@ const Home = () => {
         {/* Software Developer in Test */}
         <div >
         <h2 className='  font-mono pt-5 text-2xl font-bold'>Software Developer in Test 📱🕸️🖥️</h2>
-          <div className=' font-mono pt-5 pb-10'>
+          <div className=' font-mono pt-5 pb-10 space-x-5'>
             <ul> 👋🏼 I’m Mohat Shil, a SDET with 5+ years of experience in multiple MNCs. </ul>
             <ul> 🎓 Graduated in 2021 with a Computer Engineering bechelors degree.</ul>
             <ul>  🗡  As a passionate Test Automation Enthusiast, I specialize in cutting-edge technologies and testing frameworks.</ul>
