@@ -22,13 +22,13 @@ const Home = () => {
         <hr/>
         {/* Software Developer in Test */}
         <div >
-        <h2 className='  font-mono pt-5 text-2xl font-bold'>Software Developer in Test 📱🕸️🖥️</h2>
-          <div className=' font-mono pt-5 pb-10 space-x-5'>
-            <ul> 👋🏼 I’m Mohat Shil, a SDET with 5+ years of experience in multiple MNCs. </ul>
-            <ul> 🎓 Graduated in 2021 with a Computer Engineering bechelors degree.</ul>
-            <ul>  🗡  As a passionate Test Automation Enthusiast, I specialize in cutting-edge technologies and testing frameworks.</ul>
-            <ul> 🔍 Explore my latest projects and contributions on my <a href='https://github.com/shilCode' className=' underline' target="_blank">GitHub</a>.</ul>
-            <ul> 📚 I'm currently learning about DevOps and Cloud Computing.</ul>
+        <h2 className='  font-mono pt-5 lg:text-2xl md:text-2xl sm:text-xl font-bold'>Software Developer in Test 📱🕸️🖥️</h2>
+          <div className=' font-mono pt-5 pb-10 '>
+            <ul className='pb-2'> 👋🏼 I’m Mohat Shil, a SDET with 5+ years of experience in multiple MNCs. </ul>
+            <ul className='pb-2'> 🎓 Graduated in 2021 with a Computer Engineering bechelors degree.</ul>
+            <ul className='pb-2'>  🗡  As a passionate Test Automation Enthusiast, I specialize in cutting-edge technologies and testing frameworks.</ul>
+            <ul className='pb-2'> 🔍 Explore my latest projects and contributions on my <a href='https://github.com/shilCode' className=' underline' target="_blank">GitHub</a>.</ul>
+            <ul className='pb-2'> 📚 I'm currently learning about DevOps and Cloud Computing.</ul>
             <ul> 🎯 My goal is to become a Cloud Architect and contribute to open-source projects.</ul>
           </div>
         </div>
@@ -37,7 +37,7 @@ const Home = () => {
         {/* Experience */}
       <hr />
         <div >
-        <h2 className='  font-mono pt-5 pb-4 text-2xl font-bold'>Work Experience 👾</h2>
+        <h2 className='  font-mono pt-5 pb-4 lg:text-2xl sm:text-xl font-bold'>Work Experience 👾</h2>
         <div>
 
         <div className=' flex pb-10 '>
@@ -111,7 +111,7 @@ const Home = () => {
       <hr />
         {/* Tech Stack */}
         <div className='pb-10' >
-        <h2 className='  font-mono pt-5 pb-10 text-2xl font-bold'>Technology Stack ⚙️</h2>
+        <h2 className='  font-mono pt-5 pb-4 lg:text-2xl sm:text-xl font-bold'>Technology Stack ⚙️</h2>
               <div className='flex flex-wrap'>
                   <div className='w-1/2'>
                     <div>🧪 E2E Testing: 
