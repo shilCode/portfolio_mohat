@@ -113,10 +113,10 @@ const Home = () => {
         {/* Tech Stack */}
         <div className='pb-10' >
         <h2 className='  font-mono pt-5 pb-10 text-2xl font-bold'>Technology Stack ⚙️</h2>
-              <div className=' flex'>
-                  <div className=' pb-20 w-1/2'>
-                    <div>E2E Testing: 🧪
-                    <div className='ms-10'>
+              <div className='flex flex-wrap'>
+                  <div className='w-1/2'>
+                    <div>🧪 E2E Testing: 
+                    <div className='ms-10 '>
                     <a href="https://playwright.dev/" target="_blank">Playwright</a><br/>
                     <a href="https://www.cypress.io/" target="_blank">Cypress</a><br/>
                     <a href="https://pptr.dev/" target="_blank">Puppeteer</a><br/>
@@ -127,8 +127,9 @@ const Home = () => {
                     </div>
                   </div>
 
-                  <div className='flex w-1/2'>
-                    <div >Tools: ⚓<br/>
+                  <div className='flex w-1/2 '>
+                    <div >⚓ Tools: 
+                      <br/>
                     <a className='ms-10 ' href="https://git-scm.com/" target="_blank">Git</a><br/>
                     <a className='ms-10 ' href="https://www.postman.com/" target="_blank">Postman</a><br/>
                     <a className='ms-10 ' href="https://jmeter.apache.org/" target="_blank">Jmeter</a><br/>
@@ -139,13 +140,13 @@ const Home = () => {
                   
                   </div> 
               </div>
-                  <div className=' w-1/2'>Programming Languages: 🧑‍💻 
+                  <div className='w-1/2'>👨‍🏫 Programming Languages: 
                     <div className='ms-10  '>
                     <a href="https://javascript.info/" target="_blank">JavaScript</a><br/>
                     <a href="https://typescriptlang.org/" target="_blank">TypeScript</a><br/>
                   </div> <br/>
               </div>
-      </div>
+              </div>
 
         <hr />
         </div>
