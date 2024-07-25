@@ -9,9 +9,9 @@ const Home = () => {
         <div>
         <div className=' flex justify-between items-center pt-10 pb-10  gap-10 '>
             <div >
-            <a className='text-[#fbbf24]  font-extrabold  lg:text-3xl md:text-xl'>Mohat Shil </a>
+            <a className='text-[#fbbf24]  font-extrabold lg:text-3xl md:text-xl sm:text-xl'>Mohat Shil </a>
             </div>
-            <div className='lg:text-3xl sm:text-xl '>
+            <div className='lg:text-xl md:text-xl sm:text-xl sm:flex-row sm:items-center'>
             <a className='mx-10' href='https://www.linkedin.com/in/mohat-shil/' target="_blank">Linkedn</a>
             <a  href='https://github.com/shilCode' target="_blank">GitHub</a>
             <div>

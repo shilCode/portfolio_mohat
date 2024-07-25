@@ -11,7 +11,7 @@ yarn start
 
 todo
 
-- [] update responsiveness
+- [x] update responsiveness
 - [] update footer
 - [] update header with linkedn profile
 - [] fix issues with technologies stack
