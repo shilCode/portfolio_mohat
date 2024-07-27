@@ -29,7 +29,7 @@ const Home = () => {
             <ul className='pb-2'>  🗡  As a passionate Test Automation Enthusiast, I specialize in cutting-edge technologies and testing frameworks.</ul>
             <ul className='pb-2'> 🔍 Explore my latest projects and contributions on my <a href='https://github.com/shilCode' className=' underline' target="_blank">GitHub</a>.</ul>
             <ul className='pb-2'> 📚 I'm currently learning about DevOps and Cloud Computing.</ul>
-            <ul> 🎯 My goal is to become a Cloud Architect and contribute to open-source projects.</ul>
+            <ul> 🎯 My goal is to learn, understand how things actually work - E2E and make systems as efficient as feasible.</ul>
           </div>
         </div>
         </div>
