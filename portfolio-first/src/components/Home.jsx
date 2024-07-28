@@ -22,7 +22,7 @@ const Home = () => {
         <hr/>
         {/* Software Developer in Test */}
         <div >
-        <h2 className='  font-mono pt-5 lg:text-2xl md:text-2xl sm:text-xl font-bold'>Software Developer in Test 📱🕸️🖥️</h2>
+        <h2 className='  font-mono pt-5 lg:text-2xl md:text-2xl sm:text-xl font-bold'>Software Development Engineer in Test 📱🕸️🖥️</h2>
           <div className=' font-mono pt-5 pb-10 '>
             <ul className='pb-2'> 👋🏼 I’m Mohat Shil, a SDET with 5+ years of experience in multiple MNCs. </ul>
             <ul className='pb-2'> 🎓 Graduated in 2021 with a Computer Engineering Bechalors degree.</ul>
