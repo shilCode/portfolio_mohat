@@ -1,10 +1,12 @@
-Online CV
+using yarn
 
 ```
 yarn start
 ```
 
-### link: https://mohat.vercel.app
+### link:
+
+[https://mohat.vercel.app](https://mohat.vercel.app)
 
 todo
 
