@@ -4,7 +4,7 @@ Online CV
 yarn start
 ```
 
-### link: mohat.vercel.app
+### link: https://mohat.vercel.app
 
 todo
 
