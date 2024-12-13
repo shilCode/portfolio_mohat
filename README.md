@@ -8,7 +8,7 @@ yarn start
 
 [https://mohat.vercel.app](https://mohat.vercel.app)
 
-todo
+### todo
 
 - [x] update responsiveness
 - [x] update footer
