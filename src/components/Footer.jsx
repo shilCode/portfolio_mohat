@@ -1,8 +1,7 @@
 import { React } from "react";
-import useRandomColors from "../hooks/useRandomColors";
+
 
 const Footer = () => {
-  const { textColor } = useRandomColors;
 
   return (
     /* footer */
@@ -11,7 +10,7 @@ const Footer = () => {
         <a
           href="mailto:2850542@gmail.com"
           target="_blank"
-          className={`${textColor} font-extrabold  text-xl`}
+          className={` font-extrabold  text-xl`}
           rel="noreferrer"
         >
           ✉️ 2850542@gmail.com

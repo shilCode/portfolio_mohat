@@ -1,13 +1,13 @@
 import React from "react";
-import useRandomColors from "../hooks/useRandomColors";
+
 
 const Header = () => {
-  const { textColor } = useRandomColors();
+
   return (
     <div className="global-container ">
       <div>
         <p
-          className={`${textColor} font-extrabold lg:text-3xl md:text-xl sm:text-xs `}
+          className={` font-extrabold lg:text-3xl md:text-xl sm:text-xs `}
         >
           Mohat Shil
         </p>
