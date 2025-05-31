@@ -2,6 +2,7 @@ import React from "react";
 import { Button } from "./ui/button";
 import { cn } from "../lib/utils";
 import ThemeToggle from './ThemeToggle';
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -16,14 +17,19 @@ const Header = () => {
       </div>
       <nav className="flex items-center space-x-4">
         <Button variant="link" asChild>
-          <a href="https://www.linkedin.com/in/mohat-shil/" target="_blank" rel="noreferrer">
+          <Link to="https://www.linkedin.com/in/mohat-shil/" target="_blank" rel="noreferrer">
             LinkedIn
-          </a>
+          </Link>
         </Button>
         <Button variant="link" asChild>
-          <a href="https://github.com/shilCode" target="_blank" rel="noreferrer">
+          <Link to="https://github.com/shilCode" target="_blank" rel="noreferrer">
             GitHub
-          </a>
+          </Link>
+        </Button>
+        <Button variant="link" asChild>
+          <Link to="/projects">
+            Projects
+          </Link>
         </Button>
         <ThemeToggle />
       </nav>
@@ -31,4 +37,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Header; 

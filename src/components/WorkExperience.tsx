@@ -1,6 +1,6 @@
 import React from "react";
 
-const WorkExperience = () => {
+const WorkExperience: React.FC = () => {
   return (
     <section className="container mx-auto px-4 py-16">
       <h2 className="text-4xl lg:text-5xl font-bold text-center mb-12">
@@ -16,7 +16,7 @@ const WorkExperience = () => {
             href="https://global.abb/group/en"
             target="_blank"
             rel="noreferrer"
-            className="text-blue-500 hover:underline"
+            className="text-primary hover:text-primary-foreground"
           >
             Visit Website
           </a>
@@ -31,7 +31,7 @@ const WorkExperience = () => {
             href="https://www.epam.com/"
             target="_blank"
             rel="noreferrer"
-            className="text-blue-500 hover:underline"
+            className="text-primary hover:text-primary-foreground"
           >
             Visit Website
           </a>
@@ -46,7 +46,7 @@ const WorkExperience = () => {
             href="https://www.keywordsstudios.com/en/"
             target="_blank"
             rel="noreferrer"
-            className="text-blue-500 hover:underline"
+            className="text-primary hover:text-primary-foreground"
           >
             Visit Website
           </a>
@@ -61,7 +61,7 @@ const WorkExperience = () => {
             href="https://www.testroniclabs.com/"
             target="_blank"
             rel="noreferrer"
-            className="text-blue-500 hover:underline"
+            className="text-primary hover:text-primary-foreground"
           >
             Visit Website
           </a>
@@ -70,4 +70,4 @@ const WorkExperience = () => {
     </section>
   );
 };
-export default WorkExperience;
+export default WorkExperience; 

@@ -1,8 +1,8 @@
-import { React } from "react";
+import React from "react";
 import { Button } from "./ui/button";
 import { cn } from "../lib/utils";
 
-const Footer = () => {
+const Footer: React.FC = () => {
   return (
     <footer className={cn("flex flex-col items-center py-6 px-8 border-t border-border mt-10")}>
       <Button variant="link" asChild>
@@ -10,7 +10,7 @@ const Footer = () => {
           href="mailto:2850542@gmail.com"
           target="_blank"
           rel="noreferrer"
-          className="font-extrabold text-xl"
+          className="font-extrabold text-xl text-primary hover:text-primary-foreground"
         >
           ✉️ 2850542@gmail.com
         </a>
@@ -20,4 +20,4 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+export default Footer; 

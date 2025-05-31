@@ -1,10 +1,9 @@
 import React from "react";
 
-const Home = () => {
+const Home: React.FC = () => {
   return (
     <section className="container mx-auto px-4 py-16">
-      <div className="flex flex-col md:flex-row items-center justify-center md:space-x-12">
-        <div className="md:w-1/2 text-center md:text-left">
+
           <h2 className="text-4xl lg:text-5xl font-bold mb-4">
             Software Development Engineer in Test 📱🕸️🖥️
           </h2>
@@ -21,7 +20,7 @@ const Home = () => {
             🔍 Explore my latest projects and contributions on my{" "}
             <a
               href="https://github.com/shilCode"
-              className="underline text-blue-500 hover:text-blue-600"
+              className="underline text-primary hover:text-primary-foreground"
               target="_blank"
               rel="noreferrer"
             >
@@ -35,16 +34,8 @@ const Home = () => {
           <p className="text-lg leading-relaxed">
             🎯 My goal is to learn, understand how things actually work - E2E and make systems as efficient as feasible.
           </p>
-        </div>
-        <div className="md:w-1/2 mt-10 md:mt-0 flex justify-center">
-          <img
-            src="https://via.placeholder.com/300"
-            alt="Avatar"
-            className="rounded-full shadow-lg w-64 h-64 object-cover"
-          />
-        </div>
-      </div>
+
     </section>
   );
 };
-export default Home;
+export default Home; 
