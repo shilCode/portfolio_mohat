@@ -26,11 +26,6 @@ const Header = () => {
             GitHub
           </Link>
         </Button>
-        <Button variant="link" asChild>
-          <Link to="/projects">
-            Projects
-          </Link>
-        </Button>
         <ThemeToggle />
       </nav>
     </header>
