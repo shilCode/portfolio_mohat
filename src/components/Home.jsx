@@ -1,61 +1,50 @@
 import React from "react";
 
-
 const Home = () => {
   return (
-    <div className="global-container">
-      <div>
-        <div className=" flex justify-between items-center pt-10">
-          <hr />
-          {/* Software Developer in Test */}
-          <div>
-            <h2 className="  font-mono pt-5 lg:text-2xl md:text-2xl sm:text-xl font-bold">
-              Software Development Engineer in Test 📱🕸️🖥️
-            </h2>
-            <div className=" font-mono pt-5 pb-10 ">
-              <ul className="pb-2">
-                {" "}
-                👋🏼 I’m Mohat Shil, a SDET with 5+ years of experience in
-                multiple MNCs.{" "}
-              </ul>
-              <ul className="pb-2">
-                {" "}
-                🎓 Graduated in 2021 with a Computer Engineering Bachelors
-                degree.
-              </ul>
-              <ul className="pb-2">
-                {" "}
-                🗡 As a passionate Test Automation Enthusiast, I specialize in
-                cutting-edge technologies and testing frameworks.
-              </ul>
-              <ul className="pb-2">
-                {" "}
-                🔍 Explore my latest projects and contributions on my{" "}
-                <a
-                  href="https://github.com/shilCode"
-                  className=" underline"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  GitHub
-                </a>
-                .
-              </ul>
-              <ul className="pb-2">
-                {" "}
-                📚 I'm currently learning about DevOps and Cloud Computing.
-              </ul>
-              <ul>
-                {" "}
-                🎯 My goal is to learn, understand how things actually work -
-                E2E and make systems as efficient as feasible.
-              </ul>
-            </div>
-          </div>
+    <section className="container mx-auto px-4 py-16">
+      <div className="flex flex-col md:flex-row items-center justify-center md:space-x-12">
+        <div className="md:w-1/2 text-center md:text-left">
+          <h2 className="text-4xl lg:text-5xl font-bold mb-4">
+            Software Development Engineer in Test 📱🕸️🖥️
+          </h2>
+          <p className="text-lg leading-relaxed mb-4">
+            👋🏼 I'm Mohat Shil, a SDET with 5+ years of experience in multiple MNCs.
+          </p>
+          <p className="text-lg leading-relaxed mb-4">
+            🎓 Graduated in 2021 with a Computer Engineering Bachelors degree.
+          </p>
+          <p className="text-lg leading-relaxed mb-4">
+            🗡 As a passionate Test Automation Enthusiast, I specialize in cutting-edge technologies and testing frameworks.
+          </p>
+          <p className="text-lg leading-relaxed mb-4">
+            🔍 Explore my latest projects and contributions on my{" "}
+            <a
+              href="https://github.com/shilCode"
+              className="underline text-blue-500 hover:text-blue-600"
+              target="_blank"
+              rel="noreferrer"
+            >
+              GitHub
+            </a>
+            .
+          </p>
+          <p className="text-lg leading-relaxed mb-4">
+            📚 I'm currently learning about DevOps and Cloud Computing.
+          </p>
+          <p className="text-lg leading-relaxed">
+            🎯 My goal is to learn, understand how things actually work - E2E and make systems as efficient as feasible.
+          </p>
+        </div>
+        <div className="md:w-1/2 mt-10 md:mt-0 flex justify-center">
+          <img
+            src="https://via.placeholder.com/300"
+            alt="Avatar"
+            className="rounded-full shadow-lg w-64 h-64 object-cover"
+          />
         </div>
       </div>
-      <br />
-    </div>
+    </section>
   );
 };
 export default Home;

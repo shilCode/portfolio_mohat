@@ -6,7 +6,7 @@ import Footer from "./components/Footer";
 import Header from "./components/Header";
 function App() {
   return (
-    <div className="pt-10 pb-10">
+    <div className="min-h-screen bg-background text-foreground">
       <Header />
       <Home />
       <WorkExperience />

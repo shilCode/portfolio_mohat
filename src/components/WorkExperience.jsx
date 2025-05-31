@@ -1,82 +1,73 @@
 import React from "react";
+
 const WorkExperience = () => {
   return (
-    <div className="max-w-[1000px] mx-auto px-8 flex flex-col h-full font-mono text-white">
-      <div>
-        {/* Experience */}
-        <hr />
-        <div>
-          <h2 className="  font-mono pt-5 pb-4 lg:text-2xl sm:text-xl font-bold">
-            Work Experience 👾
-          </h2>
-          <div>
-            <div className=" flex pb-10 ">
-              <div className=" w-1/2">
-                <a
-                  href="https://global.abb/group/en"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  ABB Business Services
-                </a>
-                <div className="ms-10 ">
-                  <ul>QA Automation Engineer</ul>
-                  <ul>October 2023 - Present</ul>
-                  <ul>Krakow, Poland</ul>
-                </div>
-              </div>
+    <section className="container mx-auto px-4 py-16">
+      <h2 className="text-4xl lg:text-5xl font-bold text-center mb-12">
+        Work Experience 👾
+      </h2>
+      <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-2">
+        <div className="border rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow duration-300">
+          <h3 className="text-2xl font-semibold mb-2">ABB Business Services</h3>
+          <p className="text-lg text-muted-foreground mb-1">QA Automation Engineer</p>
+          <p className="text-sm text-muted-foreground mb-1">October 2023 - Present</p>
+          <p className="text-sm text-muted-foreground mb-4">Krakow, Poland</p>
+          <a
+            href="https://global.abb/group/en"
+            target="_blank"
+            rel="noreferrer"
+            className="text-blue-500 hover:underline"
+          >
+            Visit Website
+          </a>
+        </div>
 
-              <div className=" w-1/2">
-                <a
-                  href="https://www.epam.com/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  EPAM Systems
-                </a>
-                <div className="ms-10 ">
-                  <ul>Senior Software Engineer in Test</ul>
-                  <ul>May 2022 - September 2023</ul>
-                  <ul>Krakow, Poland</ul>
-                </div>
-              </div>
-            </div>
-            <div className="pb-10 flex ">
-              <div className=" w-1/2">
-                <a
-                  href="https://www.keywordsstudios.com/en/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Keywords Studios
-                </a>
-                <div className="ms-10 ">
-                  <ul>QA Test Lead</ul>
-                  <ul>July 2021 - April 2022</ul>
-                  <ul>Katowice, Poland</ul>
-                </div>
-              </div>
+        <div className="border rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow duration-300">
+          <h3 className="text-2xl font-semibold mb-2">EPAM Systems</h3>
+          <p className="text-lg text-muted-foreground mb-1">Senior Software Engineer in Test</p>
+          <p className="text-sm text-muted-foreground mb-1">May 2022 - September 2023</p>
+          <p className="text-sm text-muted-foreground mb-4">Krakow, Poland</p>
+          <a
+            href="https://www.epam.com/"
+            target="_blank"
+            rel="noreferrer"
+            className="text-blue-500 hover:underline"
+          >
+            Visit Website
+          </a>
+        </div>
 
-              <div className="w-1/2">
-                <a
-                  href="https://www.testroniclabs.com/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Testronic
-                </a>
-                <div className="ms-10 ">
-                  <ul>QA Associate Test Lead - Games</ul>
-                  <ul>October 2018 - June 2021</ul>
-                  <ul>Warsaw, Poland</ul>
-                </div>
-              </div>
-            </div>
-          </div>
-          <hr />
+        <div className="border rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow duration-300">
+          <h3 className="text-2xl font-semibold mb-2">Keywords Studios</h3>
+          <p className="text-lg text-muted-foreground mb-1">QA Test Lead</p>
+          <p className="text-sm text-muted-foreground mb-1">July 2021 - April 2022</p>
+          <p className="text-sm text-muted-foreground mb-4">Katowice, Poland</p>
+          <a
+            href="https://www.keywordsstudios.com/en/"
+            target="_blank"
+            rel="noreferrer"
+            className="text-blue-500 hover:underline"
+          >
+            Visit Website
+          </a>
+        </div>
+
+        <div className="border rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow duration-300">
+          <h3 className="text-2xl font-semibold mb-2">Testronic</h3>
+          <p className="text-lg text-muted-foreground mb-1">QA Associate Test Lead - Games</p>
+          <p className="text-sm text-muted-foreground mb-1">October 2018 - June 2021</p>
+          <p className="text-sm text-muted-foreground mb-4">Warsaw, Poland</p>
+          <a
+            href="https://www.testroniclabs.com/"
+            target="_blank"
+            rel="noreferrer"
+            className="text-blue-500 hover:underline"
+          >
+            Visit Website
+          </a>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 export default WorkExperience;
