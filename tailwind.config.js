@@ -23,25 +23,23 @@ module.exports = {
         // => @media (min-width: 1280px) { ... }
       },
       backdropFilter: {
-        'none': 'none',
-        'blur': 'blur(8px)',
+        none: "none",
+        blur: "blur(8px)",
       },
       animation: {
-        'gradient': 'gradient 15s ease infinite',
+        gradient: "gradient 15s ease infinite",
       },
       keyframes: {
         gradient: {
-          '0%, 100%': {
-            'background-position': '0% 50%'
+          "0%, 100%": {
+            "background-position": "0% 50%",
           },
-          '50%': {
-            'background-position': '100% 50%'
+          "50%": {
+            "background-position": "100% 50%",
           },
-        }
-      }
+        },
+      },
     },
   },
-  plugins: [
-    require('tailwindcss-filters'),
-  ],
+  plugins: [require("tailwindcss-filters")],
 };

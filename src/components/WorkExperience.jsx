@@ -3,7 +3,7 @@ const WorkExperience = () => {
   return (
     <div className="global-container glassmorphism mb-6">
       <div className="font-mono">
-        <hr className="mb-4" />
+        
         <h2 className="pt-2 pb-6 lg:text-2xl sm:text-xl font-bold">
           Work Experience 👾
         </h2>
@@ -35,7 +35,9 @@ const WorkExperience = () => {
                 EPAM Systems
               </a>
               <div className="ms-10 space-y-1">
-                <p className="font-semibold">Senior Software Engineer in Test</p>
+                <p className="font-semibold">
+                  Senior Software Engineer in Test
+                </p>
                 <p className="text-sm opacity-90">May 2022 - September 2023</p>
                 <p className="text-sm opacity-90">Krakow, Poland</p>
               </div>
@@ -76,7 +78,7 @@ const WorkExperience = () => {
             </div>
           </div>
         </div>
-        <hr className="mt-8" />
+      
       </div>
     </div>
   );

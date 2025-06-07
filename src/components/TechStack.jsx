@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 const TechStack = () => {
-    const [bgColor] = useState("");
+  const [bgColor] = useState("");
   return (
     /* Tech Stack */
     <div className="global-container glassmorphism mb-6">
@@ -138,7 +138,7 @@ const TechStack = () => {
             </div>
           </div>
 
-          <hr className="mt-6" />
+
         </div>
       </div>
     </div>
