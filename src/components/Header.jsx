@@ -1,5 +1,8 @@
 import React from "react";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 import useRandomColors from "../hooks/useRandomColors";
+import { SOCIAL_LINKS } from "../constants";
+import { ExternalLink } from "./common";
 
 const Header = () => {
   const { textColor } = useRandomColors();
@@ -12,18 +15,19 @@ const Header = () => {
           Mohat Shil
         </p>
       </div>
-      <div className="lg:text-xl md:text-xl sm:text-xs  sm:items-center">
-        <a
-          className="mx-10"
-          href="https://www.linkedin.com/in/mohat-shil/"
-          target="_blank"
-          rel="noreferrer"
+      <div className="lg:text-2xl md:text-xl sm:text-lg sm:items-center flex gap-6">
+        <ExternalLink
+          href={SOCIAL_LINKS.LINKEDIN}
+          className="hover:text-[#0A66C2] transition-colors"
         >
-          Linkedn
-        </a>
-        <a href="https://github.com/shilCode" target="_blank" rel="noreferrer">
-          GitHub
-        </a>
+          <FaLinkedin />
+        </ExternalLink>
+        <ExternalLink
+          href={SOCIAL_LINKS.GITHUB}
+          className="hover:text-gray-400 transition-colors"
+        >
+          <FaGithub />
+        </ExternalLink>
       </div>
     </div>
   );
