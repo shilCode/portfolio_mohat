@@ -4,10 +4,9 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        palette1: "#fbbf24", // Example color
-        palette2: "#34d399", // Another color
-        palette3: "#60a5fa", // Another color
-        // Add more palettes
+        palette1: "#fbbf24",
+        palette2: "#34d399",
+        palette3: "#60a5fa",
       },
       screens: {
         sm: "304px",
@@ -28,6 +27,8 @@ module.exports = {
       },
       animation: {
         gradient: "gradient 15s ease infinite",
+        float: "float 3s ease-in-out infinite",
+        "pulse-slow": "pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite",
       },
       keyframes: {
         gradient: {
@@ -38,6 +39,16 @@ module.exports = {
             "background-position": "100% 50%",
           },
         },
+        float: {
+          "0%, 100%": { transform: "translateY(0)" },
+          "50%": { transform: "translateY(-10px)" },
+        },
+      },
+      backgroundImage: {
+        "gradient-dark":
+          "linear-gradient(-45deg, #000000, #1a1a1a, #2d0a31, #0a192f)",
+        "gradient-light":
+          "linear-gradient(-45deg, #f0f9ff, #e0f2fe, #dbeafe, #bfdbfe)",
       },
     },
   },

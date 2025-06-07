@@ -1,6 +1,6 @@
-import React from 'react';
+import React from "react";
 
-const ExternalLink = ({ href, children, className = '' }) => {
+const ExternalLink = ({ href, children, className = "" }) => {
   return (
     <a
       href={href}

@@ -1,15 +1,22 @@
+import Home from "./sections/Home";
 import { Analytics } from "@vercel/analytics/react";
+import WorkExperience from "./sections/WorkExperience";
+import TechStack from "./sections/TechStack";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
 import Layout from "./components/Layout";
-import { Home, WorkExperience, TechStack } from "./sections";
+import { ThemeProvider } from "./context/ThemeContext";
 
 function App() {
   return (
-    <Layout>
-      <Home />
-      <WorkExperience />
-      <TechStack />
+    <ThemeProvider>
+      <Layout>
+        <Home />
+        <WorkExperience />
+        <TechStack />
+      </Layout>
       <Analytics />
-    </Layout>
+    </ThemeProvider>
   );
 }
 
