@@ -6,7 +6,7 @@ const Footer = () => {
 
   return (
     /* footer */
-    <div className="global-container">
+    <div className="global-container glassmorphism mt-auto">
       <div className=" bg-none font-mono pt-5">
         <a
           href="mailto:2850542@gmail.com"

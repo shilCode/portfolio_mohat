@@ -4,7 +4,7 @@ import useRandomColors from "../hooks/useRandomColors";
 const Header = () => {
   const { textColor } = useRandomColors();
   return (
-    <div className="global-container ">
+    <div className="global-container glassmorphism mb-6">
       <div>
         <p
           className={`${textColor} font-extrabold lg:text-3xl md:text-xl sm:text-xs `}
@@ -24,7 +24,6 @@ const Header = () => {
         <a href="https://github.com/shilCode" target="_blank" rel="noreferrer">
           GitHub
         </a>
-
       </div>
     </div>
   );

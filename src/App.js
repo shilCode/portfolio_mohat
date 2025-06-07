@@ -6,13 +6,15 @@ import Footer from "./components/Footer";
 import Header from "./components/Header";
 function App() {
   return (
-    <div className="pt-10 pb-10">
-      <Header />
-      <Home />
-      <WorkExperience />
-      <TechStack />
-      <Footer />
-      <Analytics />
+    <div className="min-h-screen p-4 md:p-8">
+      <div className="max-w-[1200px] mx-auto">
+        <Header />
+        <Home />
+        <WorkExperience />
+        <TechStack />
+        <Footer />
+        <Analytics />
+      </div>
     </div>
   );
 }
