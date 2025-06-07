@@ -24,9 +24,9 @@ const Home = () => {
   return (
     <MotionSection className="glassmorphism mb-6 w-full">
       <div className="max-w-[1000px] mx-auto">
-        <div className="flex flex-col items-center pt-10">
+        <div className="flex flex-col ">
           <motion.h2
-            className="font-mono pt-5 lg:text-2xl md:text-2xl sm:text-xl font-bold text-center"
+            className="font-mono pt-5 lg:text-2xl md:text-2xl sm:text-xl font-bold "
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
@@ -38,7 +38,8 @@ const Home = () => {
               Graduated in 2021 with a Computer Engineering Bachelors degree.
             </AnimatedInfo>
             <AnimatedInfo icon={AiFillExperiment} delay={1}>
-              As a passionate Test Automation Enthusiast, I specialize in cutting-edge technologies and testing frameworks.
+              As a passionate Test Automation Enthusiast, I specialize in
+              cutting-edge technologies and testing frameworks.
             </AnimatedInfo>
             <AnimatedInfo icon={BsCodeSquare} delay={2}>
               Explore my latest projects and contributions on my{" "}

@@ -7,8 +7,7 @@ import ThemeToggle from "./ThemeToggle";
 
 const Header = () => {
   const { textColor } = useRandomColors();
-  return (
-    <div className="glassmorphism mb-6 w-full">
+  return (    <div className="glassmorphism mb-4 mt-2 w-full backdrop-saturate-150">
       <div className="max-w-[1000px] mx-auto">
         <div className="flex justify-between items-center w-full">
           <p
@@ -29,7 +28,7 @@ const Header = () => {
             >
               <FaGithub />
             </ExternalLink>
-            <div className="border-l border-gray-400 h-6 mx-2" />
+            <div className="border-l border-gray-400 h-6 mx-2 opacity-20" />
             <ThemeToggle />
           </div>
         </div>

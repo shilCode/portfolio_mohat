@@ -39,35 +39,35 @@ const WorkExperience = () => {
       role: "QA Automation Engineer",
       period: "October 2023 - Present",
       location: "Krakow, Poland",
-      href: "https://global.abb/group/en"
+      href: "https://global.abb/group/en",
     },
     {
       company: "EPAM Systems",
       role: "Senior Software Engineer in Test",
       period: "May 2022 - September 2023",
       location: "Krakow, Poland",
-      href: "https://www.epam.com/"
+      href: "https://www.epam.com/",
     },
     {
       company: "Keywords Studios",
       role: "QA Test Lead",
       period: "July 2021 - April 2022",
       location: "Katowice, Poland",
-      href: "https://www.keywordsstudios.com/en/"
+      href: "https://www.keywordsstudios.com/en/",
     },
     {
       company: "Testronic",
       role: "QA Associate Test Lead - Games",
       period: "October 2018 - June 2021",
       location: "Warsaw, Poland",
-      href: "https://www.testroniclabs.com/"
-    }
+      href: "https://www.testroniclabs.com/",
+    },
   ];
 
   return (
     <MotionSection className="glassmorphism mb-6 w-full">
       <div className="font-mono max-w-[1000px] mx-auto">
-        <motion.h2 
+        <motion.h2
           className="pt-2 pb-6 lg:text-2xl sm:text-xl font-bold flex items-center gap-2"
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
