@@ -10,13 +10,9 @@ const Footer = () => {
   const { textColor } = useRandomColors;
 
   return (
-    <motion.div
-      className="glassmorphism mt-4 mb-2 backdrop-saturate-150"
-      initial={{ opacity: 0, y: 20 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.5 }}
-    >
-      <div className="max-w-[1000px] mx-auto flex justify-center items-center">
+   
+    
+      <div className="max-w-[1000px] mx-auto flex justify-center items-center mt-10">
         <div className="font-mono flex flex-col items-center space-y-4 py-2">
           <h3 className="text-lg font-semibold opacity-90">Let's Connect! 👋</h3>
           
@@ -47,7 +43,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-    </motion.div>
+    
   );
 };
 
