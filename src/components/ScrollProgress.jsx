@@ -1,4 +1,3 @@
-import React from "react";
 import { motion, useSpring } from "framer-motion";
 import { useScrollProgress } from "../hooks/useScrollProgress";
 import { useTheme } from "../context/ThemeContext";

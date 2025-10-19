@@ -1,4 +1,3 @@
-import React from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import useRandomColors from "../hooks/useRandomColors";
 import { SOCIAL_LINKS } from "../constants";
