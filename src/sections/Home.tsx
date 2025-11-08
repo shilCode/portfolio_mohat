@@ -34,7 +34,7 @@ const Home = () => {
           </motion.h2>
           <div className="font-mono pt-5 pb-10 w-full max-w-3xl">
             <AnimatedInfo icon={FaGraduationCap} delay={0}>
-              Graduated in 2021 with a Computer Engineering Bachelors degree.
+              Graduated in 2021 with a Computer Engineering Bachelor's degree.
             </AnimatedInfo>
             <AnimatedInfo icon={AiFillExperiment} delay={1}>
               As a passionate Test Automation Enthusiast, I specialize in
