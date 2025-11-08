@@ -56,7 +56,7 @@ const WorkExperience = () => {
       href: "https://www.keywordsstudios.com/en/",
     },
     {
-      company: "Testronic",
+      company: "Testronic Labs",
       role: "QA Associate Test Lead - Games",
       period: "October 2018 - June 2021",
       location: "Warsaw, Poland",
